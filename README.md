@@ -1,1 +1,34 @@
-# PatternLUT-thesis
+# Pattern-Based Electron Counting Algo for LDMX TS
+
+This is the software developed for the thesis "Pattern-Based Electron Counting Algorithm for LDMX," which can be read here: LINK. 
+
+This software builds upon (and parts of it are included within) the GitHub repo *ldmx-sw*, found at LINK. To get started with using *ldmx-sw*, please see the tutorial LINK. 
+
+You will need the container denv and if developing, see using just under sec. of the tutorial. This repo contains *new* code written by me, but changes were made to other files in *ldmx-sw*, most importantly in TrigScint/src/TrigScint/TrigScintTrackProducer.cxx and its respective header file. You can use the version of ldmx-sw ...
+
+## To run simulations: 
+
+I used the file NewEventcreator.py to generate simulation samples. This file is run using: 
+
+code: just fire NewEventcreator.py 
+
+I generated files in sets of n_ev= 10000 with different p.run_numbers each time. To generate Figs. x through y in my report I had to run these jobs on LUNARC using bash scripts to automate this process. Hans Alin has these scripts (?) 
+
+## Analysis to reproduce my thesis: 
+
+code: just fire 
+denv fire? no development? 
+
+just fire runClusterstxt.py 
+
+(ALSO: EXTRUTHFIG)
+
+just fire runLUTana.py 
+
+just fire runLUTtracking.py 
+
+----------
+Include files to make plots: 
+
+To reproduce Fig. xxx...
+
