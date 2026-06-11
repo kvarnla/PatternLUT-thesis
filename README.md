@@ -1,8 +1,8 @@
 # Pattern-Based Electron Counting Algo for LDMX TS
 
-This is the software developed for the thesis "Pattern-Based Electron Counting Algorithm for LDMX," which can be read here: LINK. **NOTE: The files refered to as ClusterViewerAnalyzer and LUTAnalyzer have been renamed within *ldmx-sw* to ClusterTripletMaker and PatternLUTMaker, respectively.**
+This is the software developed for the thesis ["Pattern-Based Electron Counting Algorithm for LDMX"](https://lup.lub.lu.se/student-papers/search/publication/9232752). **NOTE: The files refered to as ClusterViewerAnalyzer and LUTAnalyzer have been renamed within *ldmx-sw* to ClusterTripletMaker and PatternLUTMaker, respectively.**
 
-This software builds upon (and parts of it are included within) the GitHub repo *ldmx-sw*, found at LINK. To get started with using *ldmx-sw*, please see the tutorial: https://ldmx-software.github.io/using/analysis/ldmx-sw.html. You will need denv (see tutorial sec. 1) and if developing, see using just under sec. 11 of the tutorial. This repo contains *new* code written by me, but changes were made to other files in *ldmx-sw*, most importantly in `TrigScint/src/TrigScint/TrigScintTrackProducer.cxx` and its respective header file. You will need *ldmx-sw* v.XXX to access these files. These changes were merged in PR XXX. 
+This software builds upon (and parts of it are included within) the GitHub repo [*ldmx-sw*](https://github.com/LDMX-Software/ldmx-sw). To get started with using *ldmx-sw*, please see the [tutorial](https://ldmx-software.github.io/using/analysis/ldmx-sw.html). You will need denv (see tutorial sec. 1) and if developing, see using just under sec. 11 of the tutorial. This repo contains *new* code written by me, but changes were made to other files in *ldmx-sw*, most importantly in `TrigScint/src/TrigScint/TrigScintTrackProducer.cxx` and its respective header file. You will need *ldmx-sw* v.XXX to access these files. These changes were merged in PR XXX. 
 
 Described below is the workflow I used. 
 
