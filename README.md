@@ -1,4 +1,5 @@
 # Pattern-Based Electron Counting Algo for LDMX TS
+(THIS PAGE IS BEING EDITED CURRENTLY, SOFTWARE IS IN OPEN PR IN LDMX-SW)
 
 This is the software developed for the thesis ["Pattern-Based Electron Counting Algorithm for LDMX"](https://lup.lub.lu.se/student-papers/search/publication/9232752). **NOTE: The files refered to as ClusterViewerAnalyzer and LUTAnalyzer have been renamed within *ldmx-sw* to ClusterTripletMaker and PatternLUTMaker, respectively.**
 
