@@ -72,5 +72,3 @@ My paper mentions an extra cluster found in event number 7098 in pad 2. If you u
 ```bash
 $ denv rootbrowse examplefile.root
 ```
-To reproduce Fig. xxx...
-
